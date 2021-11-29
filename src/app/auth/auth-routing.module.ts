@@ -1,3 +1,4 @@
+import { HomeComponent } from './pages/home/home.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { LoginComponent } from './pages/login/login.component';
 import { Routes, RouterModule } from '@angular/router';
@@ -10,7 +11,8 @@ const routes: Routes = [
       children: [
         {path: 'login', component:LoginComponent},
         {path: 'registro', component:RegistroComponent},
-        //{path: '**', redirectTo:''} //SE DEFINIRA A FUTURO UNA RUTA POR DEFECTO
+        {path: 'home', component:HomeComponent},
+        {path: '**', redirectTo:'home'} //SE DEFINIRA A FUTURO UNA RUTA POR DEFECTO
       ]
     }
 ]
