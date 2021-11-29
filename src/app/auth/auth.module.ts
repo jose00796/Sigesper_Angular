@@ -3,17 +3,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 //COMPONENTES
-import { NominaComponent } from './pages/nomina/nomina.component';
-import { RepososComponent } from './pages/reposos/reposos.component';
-import { VacacionesComponent } from './pages/vacaciones/vacaciones.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 
 
 @NgModule({
   declarations: [
-    NominaComponent,
-    RepososComponent,
-    VacacionesComponent,
+    LoginComponent,
+    RegistroComponent
   ],
   imports: [
     CommonModule,
