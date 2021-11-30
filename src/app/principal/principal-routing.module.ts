@@ -1,6 +1,8 @@
 import { VacacionesComponent } from './pages/vacaciones/vacaciones.component';
 import { RepososComponent } from './pages/reposos/reposos.component';
 import { NominaComponent } from './pages/nomina/nomina.component';
+
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
