@@ -1,0 +1,24 @@
+export interface ResponseI {
+    ced:number;
+    nombres:string;
+    apellidos:string;
+    cargo:string;
+    id_dep:number;
+    id_subdep:number;
+    email:string;
+    login:string;
+    pwd:string;
+    v_e:CharacterData;
+    pwd_md5:string;
+    codigo_ch:number;
+    id_sit_lab:number;
+    tipo_clave:number;
+    id_perfil:number;
+    f_ingreso:Date;
+    sexo:CharacterData;
+    ult_login:string;
+    api_token:any;
+    remember_token:string;
+    id:number;
+    estatus:boolean;
+}
