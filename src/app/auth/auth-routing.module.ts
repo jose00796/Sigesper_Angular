@@ -14,7 +14,7 @@ const routes: Routes = [
         {path: 'login', component:LoginComponent},
         {path: 'registro', component:RegistroComponent},
         {path: 'home', component:HomeComponent},
-        {path: '**', redirectTo:'login'} //SE DEFINIRA A FUTURO UNA RUTA POR DEFECTO
+        {path: '**', redirectTo:'home'} //SE DEFINIRA A FUTURO UNA RUTA POR DEFECTO
       ]
     }
 ]

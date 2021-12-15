@@ -7,10 +7,10 @@ import { CargarScriptsService } from 'src/app/cargar-scripts.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+ 
   constructor(private cargaScripts:CargarScriptsService) 
   {
-    cargaScripts.carga(["home_template/sidebar.js"])
+    cargaScripts.carga(["sidebar"])
   }
 
   ngOnInit(): void {
